@@ -1,3 +1,12 @@
 <template>
-  <h1>Welcome to Hulu 2.0</h1>
+  <HeaderComp />
+  <main>
+
+  </main>
 </template>
+
+<script setup lang="ts">
+import HeaderComp  from "@/components/HeaderComp.vue"
+
+
+</script>
