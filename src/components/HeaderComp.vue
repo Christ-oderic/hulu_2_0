@@ -1,7 +1,7 @@
 
 import type HeaderItemVue from './HeaderItem.vue';
 <template>
-    <header class="flex flex-col sm:flex-row m-5 justify-between items-center">
+    <header class="flex flex-col-reverse sm:flex-row m-5 justify-between items-center">
         <ul class="flex flex-grow justify-evenly max-w-2xl">
             <HeaderItem v-for="link in links" :key="link.title" :title="link.title" :Icon="link.icon" />
         </ul>
